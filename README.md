@@ -7,12 +7,14 @@ Install NodeJs 14
 Les étapes à suivre pour démarrer le projet ---------------------------------------------------
 
 1- il faut cloner le projet
+
 2- accéder dans le projet spring Boot et modifier PATHE source et destination dans la class Controller.java
 
 ![image](https://user-images.githubusercontent.com/47676062/214675305-dff60f2e-8e21-4476-be78-3e3835f31f98.png)
 
-2- run le projet springBoot avec cmd "SpringApplication.run"
-3- run projet angular avec cmd "ng s --o"
+3- run le projet springBoot avec cmd "SpringApplication.run"
+
+4- run projet angular avec cmd "ng s --o"
 
 L'interface--------------------------------------------------
 
