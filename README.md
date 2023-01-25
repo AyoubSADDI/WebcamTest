@@ -25,7 +25,7 @@ L'interface--------------------------------------------------
 ![image](https://user-images.githubusercontent.com/47676062/214666215-914c7f8f-aeb7-4e3e-b56c-a9abece4fdf0.png)
 -Cliquer sur le button "Take picture" pour prendre une photo
 ![image](https://user-images.githubusercontent.com/47676062/214667159-274b29a0-a049-4ee0-a267-3c412521ce8e.png)
--Cliquer sur le button save pour enregistrer le photo dans le repertoir robotique (C:\robotique)
+-Cliquer sur le button "save" pour enregistrer le photo dans le repertoir robotique (C:\robotique)
 ![image](https://user-images.githubusercontent.com/47676062/214675692-a512744e-2144-4be1-9f76-4c580f6ed28f.png)
 ![image](https://user-images.githubusercontent.com/47676062/214676044-7c97c590-6cb8-4ef6-ac8d-f4e2e2ff6824.png)
 
