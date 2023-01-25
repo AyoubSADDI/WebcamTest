@@ -1,0 +1,30 @@
+<form class="row g-3" #f="ngForm">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label" >First Name</label>
+    <input type="string" class="form-control" id="inputEmail4" [(ngModel)]="FirstName" [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label"  >Last Name</label>
+    <input type="string" class="form-control" id="inputPassword4" [(ngModel)]="LastName"  [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="col-2 pt-5 p-3">
+    <!-- <button (click)="checkPermissions()" class="btn btn-primary">Permission</button> -->
+  </div>
+  <!-- <div class="col-2 pt-5 p-3">
+    <button type="submit" class="btn btn-primary">Permission</button>
+  </div>
+  <div class="col-2 pt-5 p-3">
+    <button type="submit" class="btn btn-primary">Permission</button>
+  </div> -->
+</form>
+<button (click)="checkPermissions()" class="btn btn-primary">Permission</button>
+<p>{{ status }}</p>
+<div *ngIf="stream">
+<webcam [trigger]="$trigger" (imageCapture)="snapshot($event)" [imageQuality]="1">  </webcam><br>
+<button (click)="captureImage()" class="btn btn-primary">{{ btnLabel }}</button>
+</div>
+<div *ngIf="previewImage">
+  <img [src]="previewImage" height="250" width="250"><br>
+  <button (click)="proceed()" class="btn btn-primary">save</button>
+
+</div>
