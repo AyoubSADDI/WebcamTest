@@ -1,5 +1,7 @@
 Les prérequis:
+
 Install Java 8
+
 Install NodeJs 14
 
 Les étapes à suivre pour démarrer le projet ---------------------------------------------------
